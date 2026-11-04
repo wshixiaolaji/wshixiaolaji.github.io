@@ -1,0 +1,15 @@
+name = "rtc-gpu-studio-signal"
+main = "worker.js"
+compatibility_date = "2026-11-04"
+
+[[durable_objects.bindings]]
+name = "SESSIONS"
+class_name = "SessionCoordinator"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SessionCoordinator"]
+
+[vars]
+ALLOWED_ORIGIN = "https://wshixiaolaji.github.io"
+TURN_URLS = ""
