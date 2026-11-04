@@ -1,3 +1,2 @@
-// Set this to the deployed Cloudflare Worker URL for GitHub Pages.
-// Keep empty for the local LAN server, which serves /api on the same origin.
-window.RTC_CONFIG = { signalBase: "" };
+// Cloudflare signaling Worker used by the public GitHub Pages frontend.
+window.RTC_CONFIG = { signalBase: "https://rtc-gpu-studio-signal.jhy006841.workers.dev" };
